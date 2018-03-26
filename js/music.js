@@ -1,81 +1,75 @@
 /////////////////////<----------数据区-------->/////////////////////////
 var data=[
             {
-                song:"Burn",
-                singer:"Angelika Vee",
-                src:"mp3/1Angelika Vee - Burn.mp3",
+                song:"十年",
+                singer:"陈奕迅",
+                src:"mp3/陈奕迅 - 十年.mp3",
                 img:'img/1.jpg',
-                lyric:'burn'
+                lyric:'shinian'
             },
             {
-                song:"自卑情结",
-                singer:"朴经,银河",
-                src:"mp3/2朴经,银河.mp3",
+                song:"那些花儿",
+                singer:"朴树",
+                src:"mp3/朴树 - 那些花儿.mp3",
                 img:'img/2.jpg',
-                lyric:'zbqingjie'
+                lyric:'naxiehuaer',
+                offset:-21.0
             },
             {
-                song:"Say It Again",
-                singer:"Frances",
-                src:"mp3/3Frances - Say It Again.mp3",
+                song:"我变了 我没变",
+                singer:"杨宗纬",
+                src:"mp3/杨宗纬 - 我变了 我没变.mp3",
                 img:'img/3.jpg',
-                lyric:'sayitagain'
+                lyric:'wobianle'
             },
             {
-                song:"Cry Wolf",
-                singer:"Luna Shadows",
-                src:"mp3/4Luna Shadows - Cry Wolf.mp3",
+                song:"清风徐来",
+                singer:"王菲",
+                src:"mp3/王菲 - 清风徐来.mp3",
                 img:'img/4.jpg',
-                lyric:'crywolf'
+                lyric:'qingfengxulai'
             },
             {
-                song:"Panda",
-                singer:"Desiigner",
-                src:"mp3/5Desiigner - Panda.mp3",
+                song:"体面",
+                singer:"于文文",
+                src:"mp3/体面.mp3",
                 img:'img/5.jpg',
-                lyric:'panda'
+                lyric:'timian'
             },
             {
-                song:"DuDuDu",
-                singer:"Standing Egg",
-                src:"mp3/6Standing Egg.mp3",
-                img:'css/img/6.jpg',
-                lyric:'dududu'
+                song:"假如爱有天意",
+                singer:"李健",
+                src:"mp3/李健 - 假如爱有天意.mp3",
+                img:'img/6.jpg',
+                lyric:'jiaru'
             },
             {
-                song:"丑八怪",
-                singer:"薛之谦",
-                src:"mp3/7choubaguai.mp3",
+                song:"谁来剪月光",
+                singer:"陈奕迅",
+                src:"mp3/谁来剪月光 - 陈奕迅.mp3",
                 img:'img/7.jpg',
-                lyric:'choubaguai'
+                lyric:'shuilaijianyueguan'
             },
             {
-                song:"天使",
-                singer:"五月天",
-                src:"mp3/8angel-wuyue.mp3",
+                song:"老街",
+                singer:"李荣浩",
+                src:"mp3/李荣浩 - 老街.mp3",
                 img:'img/8.jpg',
-                lyric:'angel',
-                offset:-1.6
-            },
-            {
-                song:"知足",
-                singer:"五月天",
-                src:"mp3/9enough- wuyue.mp3",
-                img:'img/8.jpg',
-                lyric:'zhizu'
+                lyric:'laojie',
+                // offset:-1.6
             },
             {
                 song:"突然好想你",
                 singer:"五月天",
                 src:"mp3/10turan-wuyue.mp3",
-                img:'img/8.jpg',
+                img:'img/9.jpg',
                 lyric:'turan'
             },
             {
                 song:"温柔",
                 singer:"五月天",
                 src:"mp3/11wenrou-wuyue.mp3",
-                img:'img/8.jpg',
+                img:'img/10.jpg',
                 lyric:'wenrou',
                 offset:-0.9//歌词有延迟
             }

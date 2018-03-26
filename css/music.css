@@ -184,7 +184,6 @@ opacity: 0.4;
 	height: 20px;
 	background: url(../img/process_btn.png) no-repeat;
 	background-size: 20px;
-	-webkit-filter: brightness(0.9);
 }
 #process-bar div{
 	margin-top: 9px;
@@ -338,7 +337,7 @@ opacity: 0.4;
 	line-height: 42px;
 }
 .lyric ul li.active{
-	// color: #4FF6E3;
+	color: #4FF6E3;
 	font-size: 20px;
 	opacity: 0.99;
 }

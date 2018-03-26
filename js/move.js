@@ -8,16 +8,8 @@
  	fx:运动形式(linear匀速easeIn加速曲线easeOut减速曲线easeBoth加速减速曲线backIn回退加速)
  	endFn:回调函数
  *
- * */
-/*
- 	抖动函数：
- * 		shake(obj,attr,endFn)
- * 	参数：
- * 	 obj：要抖动的元素
- * 	attr：抖动的属性（left,top）
- * endFn：回调函数
- *
- * */
+*/
+
 
 function move(obj,attrs,duration,fx,endFn){
 	var j = {};
@@ -178,27 +170,4 @@ var Tween = {
         }
         return Tween['bounceOut'](t*2-d, 0, c, d) * 0.5 + c*0.5 + b;
     }
-}
-function shake(obj,attr,endFn){
-    var arr=[];
-    var timer=null;
-    var n=0;
-    if(!obj.num){
-        obj.num=parseFloat(getComputedStyle(obj)[attr]);
-    }
-    //拿到一组数字，抖动的幅度。
-    for(var i=20;i>0;i-=2){
-        arr.push(i,-i);
-    }
-    arr.push(0);
-    //用定时器来实现抖动效果。
-    clearInterval(timer);
-    timer=setInterval(function(){
-        n++;
-        if(n>arr.length-1){
-            clearInterval(timer);
-            endFn&&endFn();
-        }
-        obj.style[attr]=arr[n]+obj.num+'px';
-    },30);
 }
