@@ -1,6 +1,6 @@
-# MusicPlayer:notes:
+# :musical_note:MusicPlayer
 
-## 项目演示图:whale:
+## :whale:项目演示图
 
 ### 主界面
 
@@ -14,7 +14,7 @@
 
 ![Image text](https://github.com/Leyiteyanzhi/MusicPlayer/blob/master/img-folder/d3.png)
 
-## 功能说明:whale2:
+## :whale2:功能说明
 
 ### 歌曲切换  
    - [x] 点击上/下首切换按钮，歌曲将进行切换
