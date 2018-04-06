@@ -1,19 +1,5 @@
 # :musical_note:MusicPlayer
 
-## :whale:项目演示图
-
-### 主界面
-
-![Image text](https://github.com/Leyiteyanzhi/MusicPlayer/blob/master/img-folder/d1.png)
-
-### 歌词界面
-
-![Image text](https://github.com/Leyiteyanzhi/MusicPlayer/blob/master/img-folder/d2.png)
-
-### 歌单列表
-
-![Image text](https://github.com/Leyiteyanzhi/MusicPlayer/blob/master/img-folder/d3.png)
-
 ## :whale2:功能说明
 
 ### 歌曲切换  
@@ -47,3 +33,17 @@
    - [x] 展示所有歌曲
    - [x] 点击可选择播放歌曲
    - [x] 当前播放歌曲将在列表中以小广播形式展现
+   
+## :whale:项目演示图
+
+### 主界面
+
+![Image text](https://github.com/Leyiteyanzhi/MusicPlayer/blob/master/img-folder/d1.png)
+
+### 歌词界面
+
+![Image text](https://github.com/Leyiteyanzhi/MusicPlayer/blob/master/img-folder/d2.png)
+
+### 歌单列表
+
+![Image text](https://github.com/Leyiteyanzhi/MusicPlayer/blob/master/img-folder/d3.png)
